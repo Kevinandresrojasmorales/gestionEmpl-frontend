@@ -1,0 +1,44 @@
+/* Modal Header */
+.modal-header {
+    background-color: #007bff; /* Azul primario */
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  /* Botón de cierre */
+  .btn-close {
+    filter: invert(1); /* Asegura que el botón de cierre sea visible en el fondo oscuro */
+  }
+  
+  /* Campos del formulario */
+  .form-control {
+    border-radius: 0.25rem;
+    border-color: #ced4da;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Mensajes de error */
+  .invalid-feedback {
+    display: block;
+    color: #dc3545; /* Rojo de Bootstrap para mensajes de error */
+  }
+  
+  /* Botón de actualización */
+  .btn-primary {
+    background-color: #007bff; /* Azul primario */
+    border-color: #007bff;
+  }
+  
+  /* Botón de cerrar */
+  .btn-secondary {
+    background-color: #6c757d; /* Gris */
+    border-color: #6c757d;
+  }
+  
+  /* Pie del modal */
+  .modal-footer {
+    background-color: #f8f9fa; /* Fondo gris claro */
+  }
+  

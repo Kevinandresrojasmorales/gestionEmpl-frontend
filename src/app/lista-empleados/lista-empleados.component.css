@@ -1,0 +1,13 @@
+/* Estilo para truncar texto largo con puntos suspensivos */
+.truncate {
+    white-space: nowrap;        /* Evita el salto de línea */
+    overflow: hidden;           /* Oculta el texto que desborda */
+    text-overflow: ellipsis;    /* Añade puntos suspensivos al final del texto */
+    max-width: 150px;           /* Ajusta el ancho máximo según sea necesario */
+  }
+  
+  /* Estilo opcional para ajustar el ancho de las columnas */
+  .table th, .table td {
+    max-width: 200px;           /* Ajusta el ancho máximo de las celdas según sea necesario */
+  }
+  
